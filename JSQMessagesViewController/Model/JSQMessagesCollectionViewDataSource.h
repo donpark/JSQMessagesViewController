@@ -101,6 +101,8 @@
 
 @optional
 
+- (void)collectionView:(JSQMessagesCollectionView *)collectionView cell:(JSQMessagesCollectionViewCell *)cell applyStylesForItemIndexPath:(NSIndexPath *)indexPath;
+
 /**
  *  Asks the data source for the text to display in the `cellTopLabel` for the specified
  *  message data item at indexPath in the collectionView.
