@@ -448,6 +448,12 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
             cell.messageBubbleImageView.image = [bubbleImageDataSource messageBubbleImage];
             cell.messageBubbleImageView.highlightedImage = [bubbleImageDataSource messageBubbleHighlightedImage];
         }
+        
+        if ([collectionView.dataSource respondsToSelector:@selector(collectionView:cell:applyStylesForItemIndexPath:)]) {
+            [collectionView.dataSource collectionView:collectionView
+                                                 cell:cell
+                          applyStylesForItemIndexPath:indexPath];
+        }
     }
     else {
         id<JSQMessageMediaData> messageMedia = [messageItem media];
