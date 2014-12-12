@@ -22,7 +22,7 @@ See the [website](http://www.jessesquires.com/JSQMessagesViewController/) for th
 * iOS 7.0+
 * ARC
 
-*Need support for iOS 6? [You shouldn't](http://www.macrumors.com/2014/11/11/ios8-56-percent-adoption/). But, there's a branch for that!*
+*Need support for iOS 6? [You shouldn't](http://www.macrumors.com/2014/12/09/ios-8-on-63-percent-of-ios-devices/). But, there's a branch for that!*
 ````
 git checkout iOS6_support_stable
 ````
@@ -59,8 +59,10 @@ Otherwise, drag the `JSQMessagesViewController/` folder to your project and inst
 #import <JSQMessagesViewController/JSQMessages.h>    // import all the things
 ````
 
+>Read the [blog post](http://www.jessesquires.com/introducing-jsqmessagesvc-6-0/) about the 6.0 release!
+
 * **Demo Project**
-  * There's a fucking sweet demo project: `JSQMessages.xcworkspace`.
+  * There's a sweet demo project: `JSQMessages.xcworkspace`.
   * Run `pod install` first.
 
 * **Message Model**
@@ -92,7 +94,7 @@ Otherwise, drag the `JSQMessagesViewController/` folder to your project and inst
 * **Customizing**
   * The demo project is well-commented. Please use this as a guide.
 
-## Quick Tips and FAQs
+## Quick Tips
 
 *Springy bubbles?*
 ````objective-c
@@ -130,6 +132,14 @@ Otherwise, drag the `JSQMessagesViewController/` folder to your project and inst
     return cell;
 }
 ````
+
+## Questions & Help
+
+There's [a label](https://github.com/jessesquires/JSQMessagesViewController/labels/questions%20&%20help) for that. Before asking a question, see if it has [already been answered](https://github.com/jessesquires/JSQMessagesViewController/issues?q=label%3A%22questions+%26+help%22+is%3Aclosed).
+
+## Migrating from v5.x to v6.x
+
+If you are upgrading from v5.x to v6.x, see the [6.0 release notes](https://github.com/jessesquires/JSQMessagesViewController/releases/tag/6.0.0) for details about API changes.
 
 ## Documentation
 
@@ -193,6 +203,7 @@ Feel free to check out my work at [Hexed Bits](http://bit.ly/0x29A), or read [my
 * [ParseChat](https://github.com/relatedcode/ParseChat)
 * [Jib](http://jibapp.com)
 * [Onvolo](https://itunes.apple.com/us/app/onvolo/id869332351)
+* [EVCloudKitDao](https://github.com/evermeer/EVCloudKitDao)
 * *Your app here*
 
 ## License
